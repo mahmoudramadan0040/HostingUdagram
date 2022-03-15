@@ -10,7 +10,8 @@ jobs:
       - image: cimg/base:stable
     filters:
       branches:
-        only: main
+        only: 
+          - main
     steps:
       - checkout
       - aws-cli/setup
