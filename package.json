@@ -12,8 +12,8 @@
     
     "test": "npm run test:frontend && npm run test:backend ",
 
-    "install:frontend":"cd udagram-frontend && npm run install && cd ..",
-    "install:backend":"cd udagram-api && npm run install && cd ..",
+    "install:frontend":"cd udagram-frontend && npm  install && cd ..",
+    "install:backend":"cd udagram-api && npm  install && cd ..",
 
     "build:frontend":"cd udagram-frontend && npm run build && cd ..",
     "build:backend":"cd udagram-api && npm run build && cd ..",
