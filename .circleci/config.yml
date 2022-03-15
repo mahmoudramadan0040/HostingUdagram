@@ -21,7 +21,7 @@ jobs:
           name: build tha udagram frontend and backend 
           command: npm run build
       - run:
-          name: run test backend and frontend 
+          name: run test backend and frontends
           command: npm run test 
       - run:
           name: deploy backend (host eb ) then deploy frontend on s3 
