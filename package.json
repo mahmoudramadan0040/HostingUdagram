@@ -13,16 +13,16 @@
     "test": "npm run test:frontend && npm run test:backend ",
 
     "install:frontend":"cd udagram-frontend && npm run install && cd ..",
-    "install:backend":"cd udagram-backend && npm run install && cd ..",
+    "install:backend":"cd udagram-api && npm run install && cd ..",
 
     "build:frontend":"cd udagram-frontend && npm run build && cd ..",
-    "build:backend":"cd udagram-backend && npm run build && cd ..",
+    "build:backend":"cd udagram-api && npm run build && cd ..",
 
     "test:frontend":"cd udagram-frontend && npm run test && cd ..",
-    "test:backend":"cd udagram-backend && npm run test && cd ..",
+    "test:backend":"cd udagram-api && npm run test && cd ..",
 
     "deploy:frontend":"cd udagram-frontend && npm run deploy && cd ..",
-    "deploy:backend":"cd udagram-backend && npm run deploy && cd .."
+    "deploy:backend":"cd udagram-api && npm run deploy && cd .."
   },
   "author": "",
   "license": "ISC"
