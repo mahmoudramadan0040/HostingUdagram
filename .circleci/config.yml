@@ -1,4 +1,5 @@
 version: 2.1 
+
 orbs: 
   node : circleci/node@5.0.0
   eb: circleci/aws-elastic-beanstalk@2.0.1
@@ -26,8 +27,10 @@ jobs:
           name: deploy backend (host eb ) then deploy frontend on s3 
           command: npm run deploy 
 workflows:
-  jobs:
-    - build:
-      filters:
-        branches:
-          only: main
+  build: 
+    jobs:
+      - build:
+        filters:
+          branches:
+            only: 
+              - main
